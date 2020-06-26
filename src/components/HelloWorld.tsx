@@ -5,7 +5,7 @@ export interface HelloProps {
   framework: string;
 }
 
-const HelloWorld: React.FunctionComponent<HelloProps> = ({
+const HelloWorld: React.FC<HelloProps> = ({
   compiler,
   framework,
 }) => {
